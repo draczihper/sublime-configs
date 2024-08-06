@@ -1,0 +1,11 @@
+// Live Server Settings
+{
+  "node_executable_path": "/home/drac/.nvm/versions/node/v20.11.1/bin/node",
+  "global_node_modules_path": "/home/drac/.nvm/versions/node/v20.11.1/lib/node_modules",
+  "port": 8080,
+  "address": "localhost",
+  "cors": true,
+  "browser": "default",
+  "nobrowser": false,
+  "wait": 100
+}

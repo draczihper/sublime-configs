@@ -1,0 +1,52 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+	"variables":
+	{
+		"font_face": "system",
+		"font_size_sm": 12,
+		"font_size": 13,
+		"font_size_lg": 14,
+		"font_size_title": 24,
+	},
+	"rules":
+	[
+		{
+			"class": "sidebar_container",
+			"layer0.opacity": 1.0,
+			"content_margin": 0,
+		},
+		{
+			"class": "sidebar_tree",
+			"row_padding": [16, 5, 4, 5],
+			"indent": 15,
+			"indent_offset": 5,
+			"indent_top_level": false,
+			"dark_content": true,
+			"spacer_rows": true
+		},
+		{
+			"class": "sidebar_label",
+			"fg": "color(var(--background) blend(white 20%))",
+			"font.face": "var(font_face)",
+			"font.size": "var(font_size_lg)"
+		},
+		{
+			"class": "tabset_control",
+			"layer0.opacity": 1.0,
+			"content_margin": [0, 0, 0, 0],
+			"tab_height": 40,
+		},
+		{
+			"class": "tab_label",
+			"font.face": "var(font_face)",
+			"font.size": "var(font_size_lg)",
+		},
+		{
+			"class": "close_button",
+			"layer0.texture": "Theme - Default/common/open_file_close.png",
+			"layer0.opacity": { "target": 0.7, "speed": 4.0, "interpolation": "smoothstep" },
+			"layer0.tint": "color(white a(50%))",
+			"content_margin": [8, 8],
+		},
+	]
+}

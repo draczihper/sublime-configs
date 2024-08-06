@@ -1,0 +1,7 @@
+{   
+    "prettier_cli_path": "/home/drac/.nvm/versions/node/v20.11.1/bin/prettier",
+    "node_path": "/home/drac/.nvm/versions/node/v20.11.1/bin/node",
+    "auto_format_on_save": true,
+    "semi": true,
+    "disable_prettier_cursor_offset": false,
+}

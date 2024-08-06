@@ -1,0 +1,72 @@
+    {
+        "theme": "adaptive",
+    	"256color": true,
+        // the default config, either a single config name or a platform
+        // specific dict
+        "default_config": {
+            "linux": "Bash",    // login shell
+            "osx": null,      // login shell
+            "windows": "Command Prompt",
+        },
+        // a list of available shells to execute
+        "shell_configs": [
+            {
+                "name": "Bash",
+                "cmd": ["bash", "-i", "-l"],
+                "env": {},
+                "enable": true,
+                "platforms": ["linux", "osx"],
+            },
+            {
+                "name": "Zsh",
+                "cmd": ["zsh", "-i", "-l"],
+                "env": {},
+                "enable": false,
+                "platforms": ["linux", "osx"],
+            },
+            {
+                "name": "Command Prompt",
+                "cmd": "cmd.exe",
+                "env": {},
+                "enable": false,
+                "platforms": ["windows"],
+            },
+            {
+                "name": "PowerShell Core",
+                "cmd": "pwsh.exe",
+                "env": {},
+                "enable": false,
+                "platforms": ["windows"],
+            },
+            {
+                "name": "PowerShell",
+                "cmd": "powershell.exe",
+                "env": {},
+                "enable": false,
+                "platforms": ["windows"],
+            },
+            {
+                "name": "Cmder",
+                "cmd": ["cmd.exe", "/k", "%CMDER_ROOT%\\vendor\\init.bat"],
+                "env": {},
+                "enable": false,
+                "platforms": ["windows"],
+            },
+            {
+                "name": "WSL Login Shell",
+                "cmd": "wsl.exe",
+                "env": {},
+                "enable": false,
+                "platforms": ["windows"],
+            }
+    ],
+
+        "view_settings": {
+        "caret_style": "block",
+        "caret_extra_top": 1,
+        "caret_extra_bottom": 1,
+        "block_caret": true,
+        "font_face": "Source Code Pro Medium",
+        },
+
+}

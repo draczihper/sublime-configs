@@ -1,0 +1,34 @@
+[
+	{ 
+        "keys": ["ctrl+`"], "command": "toggle_terminus_panel"
+    },
+
+    { 
+    "keys": ["ctrl+w"], "command": "terminus_close", "context": [{ "key": "terminus_view"}]
+},
+    // {
+    //     "keys": ["control+shift+i"], "command": "reindent"
+    // },
+    {
+        "keys": ["ctrl+t"], "command": "terminus_open", "args": {
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+    {
+        "keys": ["alt+l", "alt+o"], "command": "live_server_start", 
+    },
+    {
+        "keys": ["alt+l", "alt+c"], "command": "live_server_stop", 
+    },
+    { "keys": ["ctrl+alt+`"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    { "keys": ["ctrl+shift+i"], "command": "js_prettier" },
+     { "keys": ["ctrl+k", "r"], "command": "sublime_linter_line_report" },
+     { "keys": ["ctrl+k", "ctrl+f"],
+       "command": "sublime_linter_quick_actions"
+     },
+     {
+        "keys": ["shift+ctrl+g"],
+        "command": "emmet_wrap_with_abbreviation",
+        "context": [{"key": "setting.is_widget",  "operand": false }]
+    },
+]

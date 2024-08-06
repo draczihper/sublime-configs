@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"ColorHelper",
+		"Emmet",
+		"JsPrettier",
+		"LiveServer",
+		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"Terminus",
+		"WakaTime",
+	],
+	"repositories":
+	[
+		"https://github.com/molnarmark/sublime-live-server"
+	],
+}
